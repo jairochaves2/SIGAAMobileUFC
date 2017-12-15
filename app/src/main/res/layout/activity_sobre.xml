@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.sigaamobile.sigaamobile.SobreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/capa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="TODO"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/capa" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/mr_controller_volume_group_list_item_icon_size"
+                android:gravity="fill_vertical|center_horizontal"
+                android:text="Este é um projeto feito por alunos da UFC com o intuito de ajudar os ingressante nos cursos de Engenharia do Campus de Sobral. Com ele é possível acessar o SIGAA rapidamente e ter em mãos provas anteriores de suas disciplinas, que convenhamos, é de grande ajuda.\n Esperamos que seja útil."
+                android:textSize="@dimen/mr_controller_volume_group_list_padding_top" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/mr_controller_volume_group_list_item_icon_size"
+                android:gravity="fill_vertical|center_horizontal"
+                android:text="Se desejar ajudar com provas do seu semestre ou tiver dúvidas sobre o projeto entre em contato:"
+                android:textSize="@dimen/mr_controller_volume_group_list_padding_top" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/mr_controller_volume_group_list_item_icon_size"
+                android:gravity="top|fill_vertical|center_horizontal"
+                android:text="willian.s.praciano@gmail.com\n sarev17@gmail.com"
+                android:textSize="@dimen/mr_controller_volume_group_list_padding_top" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
